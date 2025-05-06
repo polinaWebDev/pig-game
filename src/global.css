@@ -1,5 +1,11 @@
 @import "tailwindcss";
+@tailwind utilities;
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 #root {
     font-family: "Hanken Grotesk", serif;

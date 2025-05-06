@@ -19,11 +19,20 @@ export default function RatingItem({ username, pigsAmount, referrals, ticketsAmo
                     <Subtitle text={`#${rating}`}/>
                     <Subtitle text={`@${username}`}/>
                 </div>
-                <Subtitle text={pigsAmount}/>
+                <div className='flex gap-0.5 items-center'>
+                    <Subtitle text={pigsAmount}/>
+                    <img src="piggy.svg" alt=""/>
+                </div>
             </header>
             <main className='flex justify-between'>
-                <Text text={`${ticketsAmount} tickets`}/>
-                <Text text={`${referrals} referrals`}/>
+                <div className='flex gap-0.5 items-center'>
+                    <img src="ticket.svg" alt=""/>
+                    <Text text={`${ticketsAmount} tickets`}/>
+                </div>
+                <div className='flex gap-0.5 items-center'>
+                    <img src="referral.svg" alt=""/>
+                    <Text text={`${referrals} referrals`}/>
+                </div>
             </main>
         </div>
     )

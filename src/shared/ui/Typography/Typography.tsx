@@ -7,13 +7,14 @@ type Theme = 'black' | 'pink'
 interface Typography {
     type: 'title' | 'subtitle' | 'caption' | 'text'
     text: string
-    theme?: Theme
+    theme?: Theme,
+    className?: string
 }
 
 type TypographyFlavour = Omit<Typography, 'type'>
 
-export function Title({ text, theme = "pink"  }: TypographyFlavour) {
-    return <h2 className={clsx(styles[theme], styles.title)}>{text}</h2>
+export function Title({ text, theme = "pink", className  }: TypographyFlavour) {
+    return <h2 className={clsx(styles[theme], className, styles.title)}>{text}</h2>
 }
 
 export function Subtitle({ text, theme = 'black' }: TypographyFlavour) {
