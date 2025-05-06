@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import {IndexLayout} from "@/widgets/Layout/ui/IndexLayout.tsx";
 import {HomePage} from "@/pages/Home/HomeScreen.tsx";
+import RulesScreen from "@/pages/Rules/RulesScreen.tsx";
 
 export const router = createBrowserRouter([
     {
@@ -11,6 +12,10 @@ export const router = createBrowserRouter([
                 index: true,
                 element: <HomePage/>
             },
+            {
+                path: '/game-rules',
+                element: <RulesScreen/>
+            }
         ]
     }
 ])
