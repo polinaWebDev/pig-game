@@ -1,0 +1,39 @@
+.pink{
+    color: #D874B9;
+}
+
+.black {
+    color: var(--soft-gray);
+}
+
+
+.title {
+    font-family: var(--grotesk-font), sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.text {
+    color: #4B4B4B;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.125rem;
+}
+
+.caption {
+    color: var(--gray-lighttheme);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.125rem;
+    text-transform: uppercase;
+}

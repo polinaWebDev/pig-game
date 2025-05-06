@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import {HomePage} from "../pages/Home/HomeScreen.tsx";
-import {IndexLayout} from "../widgets/Layout/ui/IndexLayout.tsx";
+import {IndexLayout} from "@/widgets/Layout/ui/IndexLayout.tsx";
+import {HomePage} from "@/pages/Home/HomeScreen.tsx";
 
 export const router = createBrowserRouter([
     {

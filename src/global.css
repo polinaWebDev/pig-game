@@ -1,2 +1,13 @@
 @import "tailwindcss";
-@tailwind utilities;
+
+
+#root {
+    font-family: "Hanken Grotesk", serif;
+}
+
+:root {
+    --soft-gray: #4B4B4B;
+    --gray-lighttheme: #A4A4A4;
+    --pink: #FFBFFB;
+    --grotesk-font: "Source Serif 4",
+}

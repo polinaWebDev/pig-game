@@ -1,5 +1,16 @@
+import RatingList from "@/widgets/Rating/RatingList.tsx";
+import {Title} from "@/shared/ui/Typography/Typography.tsx";
+
 export const HomePage = () => (
     <div>
-        <h1 className='text-3xl font-bold underline'>Home Page</h1>
+        <div className="flex flex-col gap-6">
+            <header className="flex justify-between items-center">
+                <Title text='Scoreboard'/>
+                <p className="rounded-3xl bg-[#FFF2FE] p-3.5">
+                    148 pretenders
+                </p>
+            </header>
+            <RatingList/>
+        </div>
     </div>
 );

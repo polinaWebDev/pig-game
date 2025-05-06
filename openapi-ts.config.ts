@@ -5,7 +5,7 @@ console.log("Config loaded");
 export default defineConfig({
     input: "https://devgame.piggyhodl.xyz/api/swagger/v1/swagger.json",
     output: {
-        path: 'src/shared/api',
+        path: 'src/shared/sdk',
     },
     plugins: [
         {
