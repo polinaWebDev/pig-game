@@ -1,5 +1,5 @@
 export const HomePage = () => (
     <div>
-        <h1>Home Page</h1>
+        <h1 className='text-3xl font-bold underline'>Home Page</h1>
     </div>
 );

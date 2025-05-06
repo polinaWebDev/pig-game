@@ -13,12 +13,16 @@
   "dependencies": {
     "@hey-api/client-axios": "^0.7.0",
     "@hey-api/client-fetch": "^0.10.0",
+    "@tailwindcss/postcss": "^4.1.5",
+    "@tailwindcss/vite": "^4.1.5",
     "@tanstack/react-query": "^5.75.4",
     "@tanstack/react-query-devtools": "^5.75.4",
     "module-alias": "^2.2.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "^7.5.3"
+    "react-router": "^7.5.3",
+    "react-router-dom": "^7.5.3",
+    "tailwindcss": "^4.1.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
