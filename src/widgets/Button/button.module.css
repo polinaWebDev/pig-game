@@ -1,6 +1,7 @@
 .button {
     border-radius: 40px;
     background: var(--pink);
+    cursor: pointer;
 
     color: black;
     font-size: 1rem;

@@ -17,3 +17,16 @@
     --pink: #FFBFFB;
     --grotesk-font: "Source Serif 4",
 }
+
+a,
+button {
+    transition: opacity 150ms ease-in-out;
+}
+
+a, button:hover{
+    opacity: 0.5;
+}
+
+a, button:hover {
+    text-decoration: underline;
+}

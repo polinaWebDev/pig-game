@@ -1,7 +1,5 @@
-import React from "react";
-import styles from './button.module.css'
 import clsx from "clsx";
-import {Link} from "react-router";
+import styles from "./Button.module.css";
 
 type ButtonProps = {
     href: string;
@@ -12,12 +10,10 @@ type ButtonProps = {
 
 export const Button = ({ href, children, className, noStyle = false }: ButtonProps) => {
     return (
-        <Link
-        to={{
-            pathname: href,
-        }}
-        className={clsx(!noStyle && styles.button, className)}>
+        <button
+            onClick={() => (window.location.href = href)}
+            className={clsx(!noStyle && styles.button, className)}>
             {children}
-        </Link>
+        </button>
     );
 };

@@ -6,12 +6,12 @@ import Footer from "@/widgets/Footer/Footer.tsx";
 
 export const IndexLayout = () => {
     return (
-        <>
-            <Header/>
+        <div className={styles.page}>
+            <Header />
             <div className={styles.container}>
-                <Outlet></Outlet>
+                <Outlet />
             </div>
-            <Footer/>
-        </>
-    )
+            <Footer />
+        </div>
+    );
 }

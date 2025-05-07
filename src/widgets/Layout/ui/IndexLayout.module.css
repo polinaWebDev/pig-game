@@ -1,4 +1,11 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .container {
     width: 1090px;
+    flex: 1;
     margin: 16px auto 28px auto;
 }
