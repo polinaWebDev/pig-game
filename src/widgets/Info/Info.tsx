@@ -17,7 +17,7 @@ export default function Info() {
                     <Button href='t.me/piggyhodl_news'>
                         Subscribe
                     </Button>
-                    <img src="first-pig.svg" className='absolute top-[94px] right-[30px]' alt=""/>
+                    <img src="first-pig.svg" className='absolute top-[118px] right-[30px]' alt=""/>
                 </section>
                 <section className='w-[533px] py-6 px-6 flex gap-11 flex-col bg-[#FFF2FE] rounded-3xl justify-center items-end'>
                     <div className='flex gap-11 flex-col items-center justify-center relative'>
