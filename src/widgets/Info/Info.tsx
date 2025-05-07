@@ -14,7 +14,7 @@ export default function Info() {
                         <Title text='1000 piggies'/>
                         <Text text='For subscription on PiggyHODL in telegram'/>
                     </header>
-                    <Button href='t.me/piggyhodl_news'>
+                    <Button href='https://t.me/piggyhodl_news'>
                         Subscribe
                     </Button>
                     <img src="first-pig.svg" className='absolute top-[118px] right-[30px]' alt=""/>
@@ -22,7 +22,7 @@ export default function Info() {
                 <section className='w-[533px] py-6 px-6 flex gap-11 flex-col bg-[#FFF2FE] rounded-3xl justify-center items-end'>
                     <div className='flex gap-11 flex-col items-center justify-center relative'>
                         <Title text="Join the game"/>
-                        <Button href='t.me/piggyhodl_news'>
+                        <Button href='https://t.me/piggyhodl_news'>
                             Play piggygame
                         </Button>
                         <img src="second-pig.svg" className='absolute bottom-[-24px] right-[300px]' alt=""/>

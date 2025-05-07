@@ -11,7 +11,8 @@ type ButtonProps = {
 export const Button = ({ href, children, className, noStyle = false }: ButtonProps) => {
     return (
         <button
-            onClick={() => (window.location.href = href)}
+            onClick={() => window.open(href, '_blank')}
+            formTarget={'_blank'}
             className={clsx(!noStyle && styles.button, className)}>
             {children}
         </button>

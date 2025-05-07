@@ -23,10 +23,8 @@ button {
     transition: opacity 150ms ease-in-out;
 }
 
-a, button:hover{
+a:hover,
+button:hover {
     opacity: 0.5;
-}
-
-a, button:hover {
     text-decoration: underline;
 }

@@ -136,7 +136,7 @@ export default function RulesScreen() {
                     </dl>
                 </section>
             </div>
-            <img src="third-pig.svg" className='fixed top-[30%] left-[20%]' alt=""/>
+            <img src="third-pig.svg" className='fixed top-[45%] left-[7%]' alt=""/>
         </div>
     );
 }
