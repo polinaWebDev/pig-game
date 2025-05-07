@@ -1,0 +1,21 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.subtitleRules {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+dt {
+    font-size: 16px;
+    margin: 8px 0;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
